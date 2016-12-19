@@ -15,10 +15,16 @@ public class LoVivido {
 
 public static void main(String[] args) {
 
-Metodos resul = new Metodos();
+// Instancio un objeto resul para visualizar llamar los metodos de otra clase
+    Metodos resul = new Metodos();
 
+    //Con esto llamo al metodo que introduce datos
 resul.pedirDatos();
+    
+    //Con esto llamo al metodo que calcula el tiempo de vida 
 resul.tiempoVivido();
+
+    //Con esto muestro el resultado de los calculos del metodo anterior
 resul.resultado();
 
  
